@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RobinPMAlert
 // @namespace    http://tampermonkey.net/
-// @version      0.6
+// @version      0.7
 // @description  Messages all inactive people in your robin room
 // @author       fedorg
 // @include      https://www.reddit.com/message/compose*
