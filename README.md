@@ -6,7 +6,7 @@ Messages all inactive people in your Reddit robin room
 This script sends the following messages to offline users in your room:
 
 ```
-The most HUGE merge (KuPrlits with Piiaan) is about to happen. In about 10 MINUTES, we will need to vote again. So, put on your browser and autovote or be there at around 18:10 (EDT)! www.reddit.com/robin
+The most HUGE merge (KuPrlits with sokuxcGtwe) is about to happen. In about 10 MINUTES, we will need to vote again. So, put on your browser and autovote or be there at around 18:10 (EDT)! www.reddit.com/robin
 ```
 You can customize the message to fit your room's merge schedule.
 
