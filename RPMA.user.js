@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RobinPMAlert
 // @namespace    http://tampermonkey.net/
-// @version      0.8
+// @version      0.9
 // @description  Messages all inactive people in your robin room
 // @author       fedorg
 // @include      https://www.reddit.com/message/compose*
@@ -15,7 +15,7 @@
 (function() {
     'use strict';
     
-    var message = 'The most HUGE merge (KuPrlits with Piiaan) is about to happen. In about an hour, we will need to vote again. So, put on your browser and autovote or be there at around 18:10 (EDT)! www.reddit.com/robin';
+    var message = 'The most HUGE merge (KuPrlits with Piiaan) is about to happen. In about 30 MINUTES, we will need to vote again. So, put on your browser and autovote or be there at around 18:10 (EDT)! www.reddit.com/robin';
     var subject = 'Robin needs your help';
 
     function random(min, max) {
@@ -37,7 +37,7 @@
 	function loop(afkUsernames) {
 		var uname = afkUsernames[random(0, afkUsernames.length)];
 		send(uname);
-		var rand_delay = 10000 + random(0, 10) * 1000;
+		var rand_delay = 20000 + random(0, 10) * 1000;
 		setTimeout(function(){loop(afkUsernames);}, rand_delay);
 	}
     
