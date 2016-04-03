@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         RobinPMAlert
 // @namespace    http://tampermonkey.net/
-// @version      0.5
+// @version      0.6
 // @description  Messages all inactive people in your robin room
 // @author       fedorg
 // @include      https://www.reddit.com/message/compose*
-// @updateURL    https://github.com/fedorg/robinpmalert/raw/master/robin.user.js
+// @updateURL    https://github.com/fedorg/robinpmalert/raw/master/RPMA.user.js
 // @require       http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // @grant        GM_getValue
 // @grant        GM_setValue
