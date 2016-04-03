@@ -15,8 +15,8 @@
 (function() {
     'use strict';
     
-    var message = 'this is message';
-    var subject = 'this is subject';
+    var message = 'The most HUGE merge is about to happen. In 3.5 hours, we will need to vote again. So, put on your browser and autovote or be there at around 18:10 (EDT)! www.reddit.com/robin';
+    var subject = 'Robin needs your help';
 
     function random(min, max) {
         return Math.floor(Math.random() * (max - min)) + min;
