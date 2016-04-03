@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RobinPMAlert
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @description  Messages all inactive people in your robin room
 // @author       fedorg
 // @include      https://www.reddit.com/message/compose*
@@ -15,8 +15,8 @@
 (function() {
     'use strict';
     
-    var message = 'The most HUGE merge (KuPrlits with sokuxcGtwe) is about to happen. In about 10 MINUTES, we will need to vote again. So, put on your browser and autovote or be there at around 18:10 (EDT)! www.reddit.com/robin';
-    var subject = 'Robin needs your help';
+    var message = 'The most HUGE merge has happened, forming a new room soKukune! You will be pruned from the room in 10 minutes if you don\'t vote now. So, put on your browser and autovote or just vote yourself.  www.reddit.com/robin';
+    var subject = 'Robin merge alert';
 
     function random(min, max) {
         return Math.floor(Math.random() * (max - min)) + min;
