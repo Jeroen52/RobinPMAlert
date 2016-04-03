@@ -6,7 +6,7 @@ Messages all inactive people in your Reddit robin room
 This script sends the following messages to offline users in your room:
 
 ```
-The merge is about to happen! So, put on your browser and autovote or just vote yourself now.  www.reddit.com/robin
+The merge is about to happen! So, put on your browser and autovote (https://github.com/vartan/robin-grow) or just vote yourself now.  www.reddit.com/robin
 ```
 You can customize the message to fit your room's merge schedule.
 

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RobinPMAlert
 // @namespace    http://tampermonkey.net/
-// @version      1.3
+// @version      1.32
 // @description  Messages all inactive people in your robin room
 // @author       fedorg
 // @include      https://www.reddit.com/message/compose*
@@ -15,7 +15,7 @@
 (function() {
     'use strict';
     
-    var message = 'The merge is about to happen! So, put on your browser and autovote or just vote yourself now.  www.reddit.com/robin';
+    var message = 'The merge is about to happen! So, put on your browser and autovote (https://github.com/vartan/robin-grow) or just vote yourself now.  www.reddit.com/robin';
     var subject = 'Robin merge alert';
 
     function random(min, max) {
