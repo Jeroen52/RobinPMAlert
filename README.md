@@ -17,7 +17,7 @@ Click here: http://tampermonkey.net
 
 
 Then, click this link to install the script:  
-https://github.com/fedorg/RobinPMAlert/raw/master/RPMA.user.js
+https://github.com/Jeroen52/RobinPMAlert/raw/master/RPMA.user.js
 
 After that, go to your messages:
 https://www.reddit.com/message/compose/
