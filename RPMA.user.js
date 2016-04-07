@@ -15,7 +15,7 @@
 (function() {
     'use strict';
     
-    var message = 'The merge is about to happen! So, put on your browser and autovote (https://github.com/vartan/robin-grow) or just vote yourself now.  www.reddit.com/robin';
+    var message = 'The merge is about to happen! So, put on your browser and autovote (https://github.com/5a1t/parrot) or just vote yourself now.  www.reddit.com/robin';
     var subject = 'Robin merge alert';
 
     function random(min, max) {
