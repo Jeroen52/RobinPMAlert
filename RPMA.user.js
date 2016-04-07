@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name         RobinPMAlert
+// @name         RobinPMAlert-stay
 // @namespace    http://tampermonkey.net/
-// @version      1.32
+// @version      1.33
 // @description  Messages all inactive people in your robin room
-// @author       fedorg
+// @author       fedorg, forked by jeroen52
 // @include      https://www.reddit.com/message/compose*
-// @updateURL    https://github.com/fedorg/robinpmalert/raw/master/RPMA.user.js
+// @updateURL    https://github.com/jeroen52/robinpmalert/raw/master/RPMA.user.js
 // @require       http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // @grant        GM_getValue
 // @grant        GM_setValue
@@ -15,7 +15,7 @@
 (function() {
     'use strict';
     
-    var message = 'The merge is about to happen! So, put on your browser and autovote (https://github.com/5a1t/parrot) or just vote yourself now.  www.reddit.com/robin';
+    var message = 'The merge is about to happen! So, put on your browser and autovote (https://redd.it/4cymxq) or just vote stay yourself now.  www.reddit.com/robin';
     var subject = 'Robin merge alert';
 
     function random(min, max) {
